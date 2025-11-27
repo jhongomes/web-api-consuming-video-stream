@@ -1,0 +1,26 @@
+{
+  "name": "web-api-consuming-video-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js --watch",
+    "web": "npx http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhongomes/web-api-consuming-video-stream.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhongomes/web-api-consuming-video-stream/issues"
+  },
+  "homepage": "https://github.com/jhongomes/web-api-consuming-video-stream#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
